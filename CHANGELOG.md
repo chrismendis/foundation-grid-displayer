@@ -17,7 +17,7 @@
 * Bugfix: Outside borders for gutterless grids (F3+, B3)
 
 ## Version 3.0 - February 8, 2014
-* Enhancement: Showing "gutters" (i.e. column padding) for gutterless grid systems—Bootstrap 3, Foundation 4 & 5 ([PR #9](https://github.com/alefeuvre/foundation-grid-displayer/pull/9) thanks @JayVerb)
+* Enhancement: Showing "gutters" (i.e. column padding) for gutterless grid systemsâ€”Bootstrap 3, Foundation 4 & 5 ([PR #9](https://github.com/alefeuvre/foundation-grid-displayer/pull/9) thanks @JayVerb)
 * Enhancement: Changeable gutters' width
 * Enhancement: Foundation 5.0 support
 
@@ -28,3 +28,6 @@
 * Enhancement: Custom bookmarklet 'install' with the following options: Bootstrap only, Foundation only or both frameworks ([issue #12](https://github.com/alefeuvre/foundation-grid-displayer/issues/12) thanks @pentago)
 * Enhancement: HTTPS support ([issue #15](https://github.com/alefeuvre/foundation-grid-displayer/issues/15) thanks @chris37879)
 * Bugfix: Better link for the close button ([PR #13](https://github.com/alefeuvre/foundation-grid-displayer/pull/13) thanks @alexismangin)
+
+## Version 3.3
+* Enhancement: HTTPS support. If the loaded URL uses any protocol other than `http` or `https`, then `http` will be used.
